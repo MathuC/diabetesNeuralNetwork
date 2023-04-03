@@ -17,7 +17,7 @@ Keras, the high-level API of the TensorFlow platform.
  ## Usage
  * Download the **Model** directory into your current directory.
  * Launch python
- * Then:
+ * Import keras and load the model
  ```
 import keras from tensorflow
 model=keras.models.load_model("Model")
