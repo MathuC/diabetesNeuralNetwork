@@ -53,3 +53,5 @@ for i in range(10):
     else:
         message="Failure."
     print('%s => %d Expected:%d %s' % (x[j].tolist(), predictions[j], y[j], message))
+
+model.save('.')
