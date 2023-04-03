@@ -12,6 +12,6 @@ Keras, the high-level API of the TensorFlow platform.
 import keras from tensorflow
 model=keras.models.load_model("Model")
 
-# Example where the input is *5.0, 187, 82, 60, 207, 40, 1, 100*
+#Example where the input is 5.0, 187, 82, 60, 207, 40, 1, 100
 model.predict([[5.0, 187, 82, 60, 207, 40, 1, 100]])[0][0]
  ```
