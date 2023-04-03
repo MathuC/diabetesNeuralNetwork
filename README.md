@@ -34,4 +34,5 @@ model.predict([[5.0, 187, 82, 60, 207, 40, 1, 100]])[0][0]
  1/1 [==============================] - 0s 57ms/step
  0.98982555
  ```
+This imaginary patient has a 98.98% chance of getting diabetes in the next 5 years.
 
