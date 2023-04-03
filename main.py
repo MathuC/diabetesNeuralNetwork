@@ -54,4 +54,12 @@ for i in range(10):
         message="Failure."
     print('%s => %d Expected:%d %s' % (x[j].tolist(), predictions[j], y[j], message))
 
+#export the model
 #model.save('.')
+
+#import the model
+#import keras from tensorflow
+#model=keras.models.load_model("Model")
+
+#use the model
+#model.predict([[5.0, 187, 82, 60, 207, 40, 1, 100]])[0][0]

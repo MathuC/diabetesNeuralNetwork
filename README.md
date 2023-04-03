@@ -5,14 +5,15 @@
 Keras, the high-level API of the TensorFlow platform.
 
  ## Input data format
- * Number of times pregnant
- * Plasma glucose concentration at 2 hours in an oral glucose tolerance test
- * Diastolic blood pressure (mm Hg)
- * Triceps skin fold thickness (mm)
- * 2-hour serum insulin (mu U/ml)
- * Body mass index (weight in kg/(height in m)^2)
- * Diabetes pedigree function
- * Age (years)
+ [[x0,x1,x2,x3,x4,x5,x6,x7]]
+ * x0: Number of times pregnant
+ * x1: Plasma glucose concentration at 2 hours in an oral glucose tolerance test
+ * x2: Diastolic blood pressure (mm Hg)
+ * x3: Triceps skin fold thickness (mm)
+ * x4: 2-hour serum insulin (mu U/ml)
+ * x5: Body mass index (weight in kg/(height in m)^2)
+ * x6: Diabetes pedigree function
+ * x7: Age (years)
 
  ## Usage
  * Download the **Model** directory into your current directory.
